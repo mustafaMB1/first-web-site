@@ -1,24 +1,9 @@
-.tt{
-    color: firebrick;
+*{
+    padding: 0;
+    margin: 0;
 }
-#tt{
-    color: gold;
+p{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 3px solid red;
 }
-h2{
-    color: green;
-}
-
-
-
-
-/* specificity 
-
-              styleinline  id   (class / pseudo class / attr selector) element
-          
-   styleinline      1       0               0                             0  == 1000
-   id               0       1               0                              0  ==  100
-   class            0       0               1                              0  == 10
-   element          0       0                0                             1  === 1
- 
-*/
-
